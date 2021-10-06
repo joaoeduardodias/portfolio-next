@@ -1,8 +1,6 @@
 import NavLink from './NavLink';
 import { Container } from './styles';
 
-// interface HeaderProps {}
-
 function Header() {
   return (
     <Container>
