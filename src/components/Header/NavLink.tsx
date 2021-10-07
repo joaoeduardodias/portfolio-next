@@ -7,7 +7,7 @@ interface NavLinkProps {
   path: string;
 }
 
-export default function NavLink({ title, path }: NavLinkProps) {
+export function NavLink({ title, path }: NavLinkProps) {
   const router = useRouter();
   const isActive = router.pathname === path;
 
